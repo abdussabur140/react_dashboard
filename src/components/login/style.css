@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+
+.login_page {
+  @apply h-[100vh] flex items-center justify-center bg-blue-500;
+}
+
+.login_page form {
+  @apply w-[400px] px-[20px] py-[30px] h-auto rounded-3xl bg-white;
+}
+
+.login_page form h1 {
+  @apply flex justify-center text-3xl text-blue-500 pb-8;
+}
+
+.login_page form .usern label,
+.login_page form .password label{
+  @apply text-2xl;
+  padding-bottom: 20px;
+}
+
+.login_page form .usern input,
+.login_page form .password input{
+  @apply border-1 w-full rounded-2xl py-1.5 pl-2.5 text-xl;
+}
+
+.login_page form #btn{
+  @apply py-1.5 mx-auto bg-blue-500 w-full mt-8 rounded-2xl text-white text-2xl;
+}
+
